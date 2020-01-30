@@ -31,9 +31,7 @@
               {
                 "input": "node_modules/@progress/kendo-theme-bootstrap/scss/all.scss"
               },
-              "src/styles.sass",
-              "src/assets/css/kendo.css",
-              "src/assets/scss/theme.scss"
+              "src/styles.sass"
             ],
             "scripts": []
           },
