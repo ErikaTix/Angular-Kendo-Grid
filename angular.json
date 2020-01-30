@@ -28,7 +28,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              {
+                "input": "node_modules/@progress/kendo-theme-bootstrap/scss/all.scss"
+              },
+              "src/styles.sass",
+              "src/assets/css/kendo.css",
+              "src/assets/scss/theme.scss"
             ],
             "scripts": []
           },
@@ -93,6 +98,9 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              },
               "src/styles.sass"
             ],
             "scripts": []
@@ -124,6 +132,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-project"
 }
